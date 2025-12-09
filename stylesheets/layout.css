@@ -9,8 +9,10 @@ html {
 }
 
 body {
-    width: 1755px;
-    height: 1198px;
+    /* width: 1755px;
+    height: 1198px; */
+    width: 100%;
+    height: 68.26vw;
     display: block;
     margin: 0 auto;
     /* overflow-x: hidden; */
