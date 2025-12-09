@@ -20,7 +20,7 @@ body {
 
 /* задний фон */
 
-body::after {
+/* body::after {
     content: "";
     position: absolute;
     top: 0;
@@ -31,7 +31,7 @@ body::after {
     opacity: 0.2;
     z-index: -2;
     font-family: "Grid Type";
-}
+} */
 
 /* общие параметры дива */
 
