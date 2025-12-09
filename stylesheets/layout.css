@@ -1,0 +1,382 @@
+/* общие стили для страницы */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1755px;
+    height: 1198px;
+    display: block;
+    margin: 0 auto;
+    /* overflow-x: hidden; */
+    font-family: "Grid Type";
+    background-color: #131313;
+}
+
+/* задний фон */
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1795px;
+    height: 1198px;
+    background-image: url('../images/открытка.svg');
+    opacity: 0.2;
+    z-index: -2;
+    font-family: "Grid Type";
+}
+
+/* общие параметры дива */
+
+.section-1 {
+display: block;
+}
+
+
+/* секция 1 */
+
+.section-1 {
+    height: 1198px;
+}
+
+h1 {
+    font-size: 18.04vw;
+    color: white;
+    -webkit-text-stroke-width: 20px;
+    -webkit-text-stroke-color: #0ADB81;
+    paint-order: stroke fill;
+    padding-right: 46vw;
+    position: relative;
+    top: 23vw;
+    left: 2.4vw;
+    letter-spacing: -0.3vw;
+    word-spacing: -2vw;
+    animation: strokeColorChange 4s infinite linear forwards;
+}
+
+.greenShape {
+    width: 22.27vw;
+    height: 6.68vw;
+    background-image: url('../images/green\ shape\ steps.svg');
+    position: relative;
+    top: -34.5vw;
+    left: 26.2vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-2 {
+    width: 22.27vw;
+    height: 6.68vw;
+    background-image: url('../images/green\ shape\ steps.svg');
+    position: relative;
+    top: -60.8vw;
+    left: 94.5vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-3 {
+    width: 18.27vw;
+    height: 1.84vw;
+    background-image: url('../images/green\ shape\ 2.svg');
+    position: relative;
+    top: -54.2vw;
+    left: -2.9vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-4 {
+    width: 22.27vw;
+    height: 6.68vw;
+    background-image: url('../images/green\ shape\ steps.svg');
+    position: relative;
+    top: -67.2vw;
+    left: 14.7vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-5 {
+    width: 15.04vw;
+    height: 17.5vw;
+    background-image: url('../images/green\ shape\ 3.svg');
+    position: relative;
+    top: -15.5vw;
+    left: 69.7vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.light-1 {
+    width: 55.9vw;
+    height: 16.25vw;
+    background-image: url('../images/light\ 1.svg');
+    position: relative;
+    top: -98vw;
+    left: 36.2vw;
+}
+
+.light-2 {
+    width: 47.9vw;
+    height: 11.25vw;
+    background-image: url('../images/light\ 2.svg');
+    position: relative;
+    top: -109.8vw;
+    left: 0;
+}
+
+.redL {
+    width: 12.16vw;
+    height: 12.16vw;
+    background-image: url('../images/red\ light.svg');
+    position: relative;
+    top: -124vw;
+    left: 2.3vw;
+    animation: redLight 1.5s linear infinite;
+}
+
+.redL-2 {
+    width: 12.16vw;
+    height: 12.16vw;
+    background-image: url('../images/red\ light.svg');
+    position: relative;
+    top: -133.4vw;
+    left: 41.6vw;
+    animation: redLight 2s linear infinite;
+}
+
+.blueL {
+    width: 12.16vw;
+    height: 12.16vw;
+    background-image: url('../images/blue\ light.svg');
+    position: relative;
+    top: -147vw;
+    left: 12.1vw;
+    animation: redLight 1.8s linear infinite;
+}
+
+.blueL-2 {
+    width: 12.16vw;
+    height: 12.16vw;
+    background-image: url('../images/blue\ light.svg');
+    position: relative;
+    top: -156vw;
+    left: 50.4vw;
+    animation: redLight 1.5s linear infinite;
+}
+
+.yellowL {
+    width: 12.16vw;
+    height: 12.16vw;
+    background-image: url('../images/yellow\ light.svg');
+    position: relative;
+    top: -167.2vw;
+    left: -3.6vw;
+    animation: redLight 1.3s linear infinite;
+}
+
+.yellowL-2 {
+    width: 12.16vw;
+    height: 12.16vw;
+    background-image: url('../images/yellow\ light.svg');
+    position: relative;
+    top: -179.9vw;
+    left: 57.7vw;
+    animation: redLight 1.8s linear infinite;
+}
+
+.bigB {
+    width: 56.82vw;
+    height: 77.76vw;
+    background-image: url('../images/big\ B.svg');
+    position: relative;
+    top: -193.7vw;
+    left: 60vw;
+    /* opacity: 0.2; */
+}
+
+.greenShape-6 {
+    width: 18.27vw;
+    height: 1.84vw;
+    background-image: url('../images/green\ shape\ 2.svg');
+    position: relative;
+    top: -239.2vw;
+    left: 23.1vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-7 {
+    width: 18.27vw;
+    height: 1.84vw;
+    background-image: url('../images/green\ shape\ 2.svg');
+    position: relative;
+    top: -236.2vw;
+    left: 40.1vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-8 {
+    width: 18.27vw;
+    height: 1.84vw;
+    background-image: url('../images/green\ shape\ 2.svg');
+    position: relative;
+    top: -211.5vw;
+    left: 48.1vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-9 {
+    width: 18.27vw;
+    height: 1.84vw;
+    background-image: url('../images/green\ shape\ 2.svg');
+    position: relative;
+    top: -263.5vw;
+    left: 43.1vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-10 {
+    width: 18.27vw;
+    height: 1.84vw;
+    background-image: url('../images/green\ shape\ 2.svg');
+    position: relative;
+    top: -228vw;
+    left: 77.1vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-11 {
+    width: 18.27vw;
+    height: 1.84vw;
+    background-image: url('../images/green\ shape\ 2.svg');
+    position: relative;
+    top: -206vw;
+    left: 66.1vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-12 {
+    width: 22.27vw;
+    height: 6.68vw;
+    background-image: url('../images/green\ shape\ steps.svg');
+    position: relative;
+    top: -255.8vw;
+    left: 94.4vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-13 {
+    width: 22.27vw;
+    height: 10.4vw;
+    background-image: url('../images/green\ shape\ steps.svg');
+    position: relative;
+    top: -221.8vw;
+    left: 81vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.greenShape-14 {
+    width: 22.27vw;
+    height: 10.4vw;
+    background-image: url('../images/green\ shape\ steps.svg');
+    position: relative;
+    top: -254.4vw;
+    left: 28.6vw;
+    animation: greenShapeChange 2s linear infinite ;
+}
+
+.grayB {
+    width: 38.2vw;
+    height: 37.5vw;
+    background-image: url('../images/gray\ B.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: -269.7vw;
+    left: 78.5vw;
+}
+
+.light-3 {
+    width: 68.9vw;
+    height: 21.25vw;
+    background-image: url('../images/light\ 3.svg');
+    position: relative;
+    top: -347.8vw;
+    left: 48.2vw;
+}
+
+.hand {
+    width: 30.95vw;
+    height: 27.46vw;
+    background-image: url('../images/hand.svg');
+    position: relative;
+    top: -318.4vw;
+    left: 52.7vw;
+}
+
+.lttleB-1 {
+    width: 14.36vw;
+    height: 12.36vw;
+    background-image: url('../images/little\ B1.svg');
+    position: relative;
+    top: -384vw;
+    left: 1.5vw;
+    animation: bJumping 1.5s linear infinite;
+}
+
+.lttleB-2 {
+    width: 14.36vw;
+    height: 10.36vw;
+    background-image: url('../images/little\ B2.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: -375vw;
+    left: 3vw;
+    animation: bJumping 1.8s linear infinite;
+}
+
+.lttleB-3 {
+    width: 14.36vw;
+    height: 11.36vw;
+    background-image: url('../images/little\ B3.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: -388.3vw;
+    left: 24vw;
+    animation: bJumping 2.1s linear infinite;
+}
+
+.lttleB-4 {
+    width: 14.36vw;
+    height: 12.36vw;
+    background-image: url('../images/little\ B4.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: -381.5vw;
+    left: 16.5vw;
+    animation: bJumping 2.4s linear infinite;
+}
+
+.lttleB-5 {
+    width: 12.36vw;
+    height: 10.6vw;
+    background-image: url('../images/little\ B5.svg');
+    background-repeat: no-repeat;
+    position: relative;
+    top: -375.4vw;
+    left: 28.5vw;
+    animation: bJumping 2s linear infinite;
+}
+
+.snow {
+    width: 110.54vw;
+    height: 71.5vw;
+    background-image: url('../images/snow.svg');
+    position: relative;
+    top: -450.2vw;
+    left: 1.6vw;
+    animation: snowShaking 2.5s linear infinite;
+}
