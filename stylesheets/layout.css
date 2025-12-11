@@ -9,13 +9,11 @@ html {
 }
 
 body {
-    /* width: 1755px;
-    height: 1198px; */
     width: 100%;
-    height: 68.26vw;
+    height: 55vw;
     display: block;
     margin: 0 auto;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     font-family: "Grid Type";
     background-color: #131313;
 }
@@ -27,358 +25,336 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 1795px;
-    height: 1198px;
-    background-image: url('../images/открытка.svg');
+    width: 100%;
+    height: 78vw;
+    background-image: url('../images/postcard.svg');
     opacity: 0.2;
-    z-index: -2;
+    z-index: -1;
     font-family: "Grid Type";
 } */
 
-/* общие параметры дива */
+/* общие параметры секции */
 
 .section-1 {
-display: block;
+    position: relative;
 }
-
 
 /* секция 1 */
 
-.section-1 {
-    height: 1198px;
-}
-
 h1 {
-    font-size: 18.04vw;
+    font-size: 16.53vw;
     color: white;
-    -webkit-text-stroke-width: 20px;
+    -webkit-text-stroke-width: 2vw;
     -webkit-text-stroke-color: #0ADB81;
     paint-order: stroke fill;
-    padding-right: 46vw;
-    position: relative;
-    top: 23vw;
-    left: 2.4vw;
-    letter-spacing: -0.3vw;
-    word-spacing: -2vw;
+    letter-spacing: 0.7vw;
+    line-height: 17.6vw;
+    display: flex;
+    position: absolute;
+    margin-top: 27.6vw;
+    margin-left: 3vw;
     animation: strokeColorChange 4s infinite linear forwards;
 }
 
 .greenShape {
-    width: 22.27vw;
-    height: 6.68vw;
+    width: 21vw;
+    height: 8.51vw;
     background-image: url('../images/green\ shape\ steps.svg');
-    position: relative;
-    top: -34.5vw;
-    left: 26.2vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 4vw;
+    left: 85vw;
+    animation: greenShapeChange 1.5s linear infinite;
 }
 
 .greenShape-2 {
-    width: 22.27vw;
-    height: 6.68vw;
+    width: 21vw;
+    height: 10.51vw;
     background-image: url('../images/green\ shape\ steps.svg');
-    position: relative;
-    top: -60.8vw;
-    left: 94.5vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 27vw;
+    left: 53vw;
+    animation: greenShapeChange 1.3s linear infinite;
 }
 
 .greenShape-3 {
-    width: 18.27vw;
-    height: 1.84vw;
+    width: 21vw;
+    height: 2.17vw;
     background-image: url('../images/green\ shape\ 2.svg');
-    position: relative;
-    top: -54.2vw;
-    left: -2.9vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 17.5vw;
+    left: -5.5vw;
+    animation: greenShapeChange 1.1s linear infinite;
 }
 
 .greenShape-4 {
-    width: 22.27vw;
-    height: 6.68vw;
-    background-image: url('../images/green\ shape\ steps.svg');
-    position: relative;
-    top: -67.2vw;
-    left: 14.7vw;
-    animation: greenShapeChange 2s linear infinite ;
+    width: 21.5vw;
+    height: 6.5vw;
+    background-image: url('../images/green\ shape\ 3.svg');
+    position: absolute;
+    top: 6.7vw;
+    left: 15.5vw;
+    animation: greenShapeChange 1.7s linear infinite;
 }
 
 .greenShape-5 {
-    width: 15.04vw;
+    width: 21.5vw;
     height: 17.5vw;
-    background-image: url('../images/green\ shape\ 3.svg');
-    position: relative;
-    top: -15.5vw;
-    left: 69.7vw;
-    animation: greenShapeChange 2s linear infinite ;
+    background-image: url('../images/green\ shape\ steps.svg');
+    position: absolute;
+    top: 65vw;
+    left: 68.5vw;
+    animation: greenShapeChange 1.7s linear infinite;
 }
 
-.light-1 {
-    width: 55.9vw;
-    height: 16.25vw;
-    background-image: url('../images/light\ 1.svg');
-    position: relative;
-    top: -98vw;
-    left: 36.2vw;
+#light-2 {
+    width: 48.2vw;
+    height: 12.37vw;
+    /* background-image: url('../images/light\ 2.svg'); */
+    display: flex;
+    flex-direction: column;
+}
+#light-1 {
+    width: 57.2vw;
+    height: 16.37vw;
+    /* background-image: url('../images/light\ 1.svg'); */
+    display: flex;
+    flex-direction: column;
+    margin-left: 36vw;
+    margin-bottom: -12vw;
+    margin-top: -4.5vw;
 }
 
-.light-2 {
-    width: 47.9vw;
-    height: 11.25vw;
-    background-image: url('../images/light\ 2.svg');
-    position: relative;
-    top: -109.8vw;
-    left: 0;
+#redL {
+    width: 11.76vw;
+    height: 11.76vw;
+    position: absolute;
+    top: 1.5vw;
+    left: 2.5vw;
+    animation: redLight 1.7s linear infinite;
 }
 
-.redL {
-    width: 12.16vw;
-    height: 12.16vw;
-    background-image: url('../images/red\ light.svg');
-    position: relative;
-    top: -124vw;
-    left: 2.3vw;
-    animation: redLight 1.5s linear infinite;
-}
-
-.redL-2 {
-    width: 12.16vw;
-    height: 12.16vw;
-    background-image: url('../images/red\ light.svg');
-    position: relative;
-    top: -133.4vw;
-    left: 41.6vw;
+#redL-2 {
+    width: 11.76vw;
+    height: 11.76vw;
+    position: absolute;
+    top: 3.5vw;
+    left: 42.3vw;
     animation: redLight 2s linear infinite;
 }
 
-.blueL {
-    width: 12.16vw;
-    height: 12.16vw;
-    background-image: url('../images/blue\ light.svg');
-    position: relative;
-    top: -147vw;
-    left: 12.1vw;
-    animation: redLight 1.8s linear infinite;
+#blueL {
+    width: 11.76vw;
+    height: 11.76vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 11.7vw;
+    animation: redLight 1.7s linear infinite;
 }
 
-.blueL-2 {
-    width: 12.16vw;
-    height: 12.16vw;
-    background-image: url('../images/blue\ light.svg');
-    position: relative;
-    top: -156vw;
-    left: 50.4vw;
-    animation: redLight 1.5s linear infinite;
+#blueL-2 {
+    width: 11.76vw;
+    height: 11.76vw;
+    position: absolute;
+    top: 5.5vw;
+    left: 50vw;
+    animation: redLight 1.1s linear infinite;
 }
 
-.yellowL {
-    width: 12.16vw;
-    height: 12.16vw;
-    background-image: url('../images/yellow\ light.svg');
-    position: relative;
-    top: -167.2vw;
-    left: -3.6vw;
-    animation: redLight 1.3s linear infinite;
+#yellowL {
+    width: 11.76vw;
+    height: 11.76vw;
+    position: absolute;
+    top: 7.5vw;
+    left: -4.5vw;
+    animation: redLight 2s linear infinite;
 }
 
-.yellowL-2 {
-    width: 12.16vw;
-    height: 12.16vw;
-    background-image: url('../images/yellow\ light.svg');
-    position: relative;
-    top: -179.9vw;
-    left: 57.7vw;
-    animation: redLight 1.8s linear infinite;
+#yellowL-2 {
+    width: 11.76vw;
+    height: 11.76vw;
+    position: absolute;
+    top: 5.5vw;
+    left: 57.5vw;
+    animation: redLight 1.7s linear infinite;
 }
 
-.bigB {
-    width: 56.82vw;
-    height: 77.76vw;
-    background-image: url('../images/big\ B.svg');
-    position: relative;
-    top: -193.7vw;
-    left: 60vw;
+#bigB {
+    width: 82vw;
+    height: 77.7vw;
+    position: absolute;
+    top: 4.8vw;
+    left: 47vw;
     /* opacity: 0.2; */
 }
 
 .greenShape-6 {
-    width: 18.27vw;
-    height: 1.84vw;
+    width: 21vw;
+    height: 2.17vw;
     background-image: url('../images/green\ shape\ 2.svg');
-    position: relative;
-    top: -239.2vw;
-    left: 23.1vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 35.8vw;
+    left: 21.7vw;
+    animation: greenShapeChange 1.5s linear infinite;
 }
 
 .greenShape-7 {
-    width: 18.27vw;
-    height: 1.84vw;
+    width: 21vw;
+    height: 2.17vw;
     background-image: url('../images/green\ shape\ 2.svg');
-    position: relative;
-    top: -236.2vw;
-    left: 40.1vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 41.8vw;
+    left: 37.5vw;
+    animation: greenShapeChange 1.5s linear infinite;
 }
 
 .greenShape-8 {
-    width: 18.27vw;
-    height: 1.84vw;
+    width: 21vw;
+    height: 2.17vw;
     background-image: url('../images/green\ shape\ 2.svg');
-    position: relative;
-    top: -211.5vw;
-    left: 48.1vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 68vw;
+    left: 44.5vw;
+    animation: greenShapeChange 1.5s linear infinite;
 }
 
 .greenShape-9 {
-    width: 18.27vw;
-    height: 1.84vw;
+    width: 21vw;
+    height: 2.17vw;
     background-image: url('../images/green\ shape\ 2.svg');
-    position: relative;
-    top: -263.5vw;
-    left: 43.1vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 18vw;
+    left: 40.5vw;
+    animation: greenShapeChange 1.5s linear infinite;
 }
 
 .greenShape-10 {
-    width: 18.27vw;
-    height: 1.84vw;
+    width: 21vw;
+    height: 2.17vw;
     background-image: url('../images/green\ shape\ 2.svg');
-    position: relative;
-    top: -228vw;
-    left: 77.1vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 56vw;
+    left: 72.5vw;
+    animation: greenShapeChange 1.8s linear infinite;
 }
 
 .greenShape-11 {
-    width: 18.27vw;
-    height: 1.84vw;
+    width: 21vw;
+    height: 2.17vw;
     background-image: url('../images/green\ shape\ 2.svg');
-    position: relative;
-    top: -206vw;
-    left: 66.1vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 78.5vw;
+    left: 64vw;
+    animation: greenShapeChange 1.1s linear infinite;
 }
 
 .greenShape-12 {
-    width: 22.27vw;
-    height: 6.68vw;
+    width: 21.5vw;
+    height: 6.5vw;
     background-image: url('../images/green\ shape\ steps.svg');
-    position: relative;
-    top: -255.8vw;
-    left: 94.4vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 24.5vw;
+    left: 27vw;
+    animation: greenShapeChange 1.1s linear infinite;
 }
 
 .greenShape-13 {
-    width: 22.27vw;
-    height: 10.4vw;
+    width: 21vw;
+    height: 10.51vw;
     background-image: url('../images/green\ shape\ steps.svg');
-    position: relative;
-    top: -221.8vw;
-    left: 81vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 72vw;
+    left: 94vw;
+    animation: greenShapeChange 1.1s linear infinite;
 }
 
 .greenShape-14 {
-    width: 22.27vw;
-    height: 10.4vw;
+    width: 21vw;
+    height: 10.51vw;
     background-image: url('../images/green\ shape\ steps.svg');
-    position: relative;
-    top: -254.4vw;
-    left: 28.6vw;
-    animation: greenShapeChange 2s linear infinite ;
+    position: absolute;
+    top: 50vw;
+    left: 30vw;
+    animation: greenShapeChange 1.1s linear infinite;
 }
 
-.grayB {
-    width: 38.2vw;
-    height: 37.5vw;
-    background-image: url('../images/gray\ B.svg');
-    background-repeat: no-repeat;
-    position: relative;
-    top: -269.7vw;
-    left: 78.5vw;
+#grayB {
+    width: 65.77vw;
+    height: 35.7vw;
+    position: absolute;
+    top: 44.8vw;
+    left: 64vw;
 }
 
-.light-3 {
-    width: 68.9vw;
-    height: 21.25vw;
-    background-image: url('../images/light\ 3.svg');
-    position: relative;
-    top: -347.8vw;
-    left: 48.2vw;
+#light-3 {
+    width: 93.82vw;
+    height: 35.55vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 42vw;
+    margin-bottom: -12vw;
+    margin-top: -12.5vw;
+    position: absolute;
+    z-index: 2;
 }
 
-.hand {
-    width: 30.95vw;
-    height: 27.46vw;
-    background-image: url('../images/hand.svg');
-    position: relative;
-    top: -318.4vw;
-    left: 52.7vw;
+#hand {
+    width: 38.38vw;
+    height: 27.7vw;
+    position: absolute;
+    top: 54.8vw;
+    left: 53vw;
 }
 
-.lttleB-1 {
-    width: 14.36vw;
-    height: 12.36vw;
-    background-image: url('../images/little\ B1.svg');
-    position: relative;
-    top: -384vw;
-    left: 1.5vw;
-    animation: bJumping 1.5s linear infinite;
+#littleB-1 {
+    width: 11.38vw;
+    height: 27.7vw;
+    position: absolute;
+    top: 10.5vw;
+    left: 2.9vw;
+    animation: bJumping 1.2s linear infinite;
 }
 
-.lttleB-2 {
-    width: 14.36vw;
-    height: 10.36vw;
-    background-image: url('../images/little\ B2.svg');
-    background-repeat: no-repeat;
-    position: relative;
-    top: -375vw;
-    left: 3vw;
-    animation: bJumping 1.8s linear infinite;
+#littleB-2 {
+    width: 9.38vw;
+    height: 10.7vw;
+    position: absolute;
+    top: 37.3vw;
+    left: 4.9vw;
+    animation: bJumping 1.7s linear infinite;
 }
 
-.lttleB-3 {
-    width: 14.36vw;
-    height: 11.36vw;
-    background-image: url('../images/little\ B3.svg');
-    background-repeat: no-repeat;
-    position: relative;
-    top: -388.3vw;
-    left: 24vw;
-    animation: bJumping 2.1s linear infinite;
+#littleB-3 {
+    width: 9.38vw;
+    height: 11.7vw;
+    position: absolute;
+    top: 35.7vw;
+    left: 24.9vw;
+    animation: bJumping 0.8s linear infinite;
 }
 
-.lttleB-4 {
-    width: 14.36vw;
-    height: 12.36vw;
-    background-image: url('../images/little\ B4.svg');
-    background-repeat: no-repeat;
-    position: relative;
-    top: -381.5vw;
+#littleB-4 {
+    width: 12.38vw;
+    height: 12.7vw;
+    position: absolute;
+    top: 53.5vw;
     left: 16.5vw;
-    animation: bJumping 2.4s linear infinite;
+    animation: bJumping 1.4s linear infinite;
 }
 
-.lttleB-5 {
-    width: 12.36vw;
-    height: 10.6vw;
-    background-image: url('../images/little\ B5.svg');
-    background-repeat: no-repeat;
-    position: relative;
-    top: -375.4vw;
-    left: 28.5vw;
-    animation: bJumping 2s linear infinite;
+#littleB-5 {
+    width: 12.38vw;
+    height: 9.7vw;
+    position: absolute;
+    top: 72.8vw;
+    left: 27.5vw;
+    animation: bJumping 1.1s linear infinite;
 }
 
-.snow {
-    width: 110.54vw;
-    height: 71.5vw;
-    background-image: url('../images/snow.svg');
-    position: relative;
-    top: -450.2vw;
-    left: 1.6vw;
-    animation: snowShaking 2.5s linear infinite;
+#snow {
+    width: 109vw;
+    height: 80vw;
+    position: absolute;
+    top: 1.4vw;
+    left: 1vw;
+    animation: snowShaking 4s linear infinite;
 }
